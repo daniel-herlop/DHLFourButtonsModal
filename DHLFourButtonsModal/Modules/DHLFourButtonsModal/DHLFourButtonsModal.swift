@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class DHLFourButtonsModal: UIView {
+public class DHLFourButtonsModal: UIView {
 
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -67,7 +67,7 @@ class DHLFourButtonsModal: UIView {
         }
     }
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
 
         super.awakeFromNib()
 
@@ -106,7 +106,7 @@ class DHLFourButtonsModal: UIView {
          }
      }
 
-    func setUp(title: String?, subtitle: String?, titleFont: UIFont? = .systemFont(ofSize: 20, weight: .bold), subtitleFont: UIFont? = .systemFont(ofSize: 14), buttonsFont: UIFont? = .systemFont(ofSize: 14), buttonsColor: UIColor = .blue, first: String?, firstAction: (() -> Void)?, firstButtonReserveColor: Bool = false, second: String? = nil, secondAction: (() -> Void)? = nil, secondButtonReserveColor: Bool = false, third: String? = nil, thirdAction: (() -> Void)? = nil, thirdButtonReserveColor: Bool = false, fourth: String? = nil, fourthAction: (() -> Void)? = nil, fourthButtonReserveColor: Bool = false) {
+    public func setUp(title: String?, subtitle: String?, titleFont: UIFont? = .systemFont(ofSize: 20, weight: .bold), subtitleFont: UIFont? = .systemFont(ofSize: 14), buttonsFont: UIFont? = .systemFont(ofSize: 14), buttonsColor: UIColor = .blue, first: String?, firstAction: (() -> Void)?, firstButtonReserveColor: Bool = false, second: String? = nil, secondAction: (() -> Void)? = nil, secondButtonReserveColor: Bool = false, third: String? = nil, thirdAction: (() -> Void)? = nil, thirdButtonReserveColor: Bool = false, fourth: String? = nil, fourthAction: (() -> Void)? = nil, fourthButtonReserveColor: Bool = false) {
         
         self.firstAction = firstAction
         self.secondAction = secondAction
