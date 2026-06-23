@@ -6,7 +6,7 @@ s.name = "DHLFourButtonsModal"
 s.summary = "Modal custom de 1 a 4 botones"
 s.requires_arc = true
 
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
