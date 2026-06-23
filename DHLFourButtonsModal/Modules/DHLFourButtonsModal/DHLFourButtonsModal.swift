@@ -39,7 +39,7 @@ public class DHLFourButtonsModal: UIView {
     private var thirdAction: (() -> Void)?
     private var fourthAction: (() -> Void)?
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
 
         super.init(frame: frame)
         nibSetup()
