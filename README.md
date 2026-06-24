@@ -40,7 +40,6 @@ fourButtonsModal.setUp(
     subtitle: NSLocalizedString("delete_photo_description", tableName: "Strings", bundle: Bundle(for: DHLUploadPhotoView.self), comment: ""),
     first: NSLocalizedString("delete", tableName: "Strings", bundle: Bundle(for: DHLUploadPhotoView.self), comment: ""),
     firstAction: {
-        documentViewerView.removeFromSuperview()
         fourButtonsModal.removeFromSuperview()
         deleteAction()
     },
