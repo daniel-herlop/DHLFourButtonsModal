@@ -1,5 +1,5 @@
 # DHLFourButtonsModal
-Custom views to upload and view photos and PDFs.
+Modal view of 1 to 4 buttons.
 
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange)
 ![Platform](https://img.shields.io/badge/iOS-14%2B-blue)
